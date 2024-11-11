@@ -28,7 +28,7 @@
 5. Java desde 0: Introducción. +6h. 
 
 ## ESTADISTICAS 
-### Primera Progrmación: 
+### Primera Programación: 
 Cursos del 1 al 9.  
 Inicio : Lunes 11 Noviembre 2024.  
 Final : Dom 22 Diciembre 2024.   
