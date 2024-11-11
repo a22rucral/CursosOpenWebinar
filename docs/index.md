@@ -11,7 +11,7 @@
 9. Java desde 0: Introducción. +6h. 
     
 ## Cursos Python: +18h.  
-1. Curso de Python : Aprende a programar en Python 3. +10h.  [Documentación](../1Curso_Python3/Readme.md) 
+1. Curso de Python : Aprende a programar en Python 3. +10h.  [Documentación](1Curso_Python3/index.md) 
 4. Curso de visualización de datos con Python ~3h. 
 7. Taller Consume Información de un serviciio web Restful con python requests. ~1h. 
 8. Curso Big Data. ~4h. 
