@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio FOrmularios</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Hoja de Inscripción <br> En los ciclos formativos de grado superior</h1>
+    <form action="">
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><label for="dni">DNI</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nombre"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="localidad">Localidad de Nacimiento:</label></td>
+                    <td><label for="provincia">Provincia:</label></td>
+                    <td><label for="fecha">Fecha Nacimiento</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><select name="provincias">
+                        <option value="">--selecciona--</option>
+                        <option value="c">Cordoba</option>
+                        <option value="s">Sevilla</option>
+                        <option value="j">Jaen</option>
+                        <option value="m">Malaga</option>
+                        <option value="h">Huelva</option>
+                        <option value="a">Almeria</option>
+                        <option value="g">Grandada</option>
+                        <option value="c">Cadiz</option>
+                    </select></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Direccion</td>
+                    <td>Codigo Postal</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="border: 1px solid black;">Forma de acceso</legend>
+            <ul style="list-style-type: none;">
+                <li><input type="radio" name="forma">Direct</li>
+                <ul style="list-style-type: none;">
+                    <li><input type="radio" name="acceso" id="">Bachillerto</li>
+                    <li><input type="radio" name="acceso" id="">Cou, opción <input type="text"></li>
+                    <li><input type="radio" name="acceso" id="">FP2</li>
+                    <li><input type="radio" name="acceso" id="">Otros <input type="text"></li>
+                </ul>
+                <li><input type="radio" name="forma">Prueba Libre</li>
+            </ul>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

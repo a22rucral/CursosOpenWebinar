@@ -1,0 +1,37 @@
+* {
+    margin: 10px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+thead{
+    color: red;
+}
+
+td, th{
+    border: 1px solid black;
+}
+tr td:nth-child(1){
+    background-color: green;
+}
+tr:nth-child(4) td:nth-child(2){
+    background-color: yellow;
+    text-align: center;
+}
+th::first-letter{
+    font-size: 2em;
+}
+
+tr td:last-child:hover{
+    font-size: 2em;
+}
+input:required{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+label::after{
+    color: red;
+    content: "*";
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <table style="background-color: antiquewhite;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Alejandro</td>
+            <td>Ruiz</td>
+            <td>C/Chaparrera</td>
+            <td>644616059</td>
+            <td>email@alejandro.es</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>Galisteo</td>
+            <td>C/Pinsapo</td>
+            <td>2874320</td>
+            <td>email@liluuu.es</td>
+        </tr>
+    </table>    
+    <table style="background-color: darkseagreen;">
+        <colgroup>
+        <col span="3" style="background-color: grey;">
+        <col style="background-color: yellow;">
+        <col style="background-color: green;">
+        </colgroup>
+        <caption>Alumnos Matriculados</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Direccion</th>
+                <th>Telefono</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alejandro</td>
+                <td>Ruiz</td>
+                <td>C/Chaparrera</td>
+                <td>644616059</td>
+                <td>email@alejandro.es</td>
+            </tr>
+            <tr>
+                <td>Antonio</td>
+                <td>Galisteo</td>
+                <td>C/Pinsapo</td>
+                <td>2874320</td>
+                <td>email@liluuu.es</td>
+            </tr>
+            <tr>
+                <td>Alejandro</td>
+                <td>Ruiz</td>
+                <td>C/Chaparrera</td>
+                <td>644616059</td>
+                <td>email@alejandro.es</td>
+            </tr>
+            <tr>
+                <td>Antonio</td>
+                <td>Galisteo</td>
+                <td>C/Pinsapo</td>
+                <td>2874320</td>
+                <td>email@liluuu.es</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie de la tabla donde pongo mas texto para que se vea como crece</td>
+            </tr>
+        </tfoot>
+
+    </table>   
+    <section style="background-color: lightpink;">
+        <table>
+            <tr>
+                <td></td>
+                <td colspan="3"> <img src="../assets/chrome.jpg" alt="chrome" height="70"></td>
+                <td colspan="2"> <img src="../assets/css.png" alt="css" height="70"></td>
+            </tr>
+            <tr>
+                <th>Capacidad</th>
+                <td>2gb</td>
+                <td>4gb</td>
+                <td>8gb</td>
+                <td>32gb</td>
+                <td>2gb</td>
+            </tr>
+            <tr>
+                <th>Colores</th>
+                <td>Blanco</td>
+                <td><ul style="list-style-type: circle;">
+                    <li>Negro</li>
+                    <li>Rosado</li>
+                    <li>Dorado</li>
+                </ul></td>
+                <td>Negro</td>
+                <td colspan="2">
+                    <ul style="list-style-type: circle;">
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+            
+            
+        </table>
+    </section> 
+</body>
+</html>

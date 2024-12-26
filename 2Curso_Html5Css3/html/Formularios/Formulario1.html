@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
+        </p>
+
+        <p>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" multiple>
+                <option value="Z">Zaragoza</option>
+                <option> Huesca</option>
+                <option>Teruel</option>
+            </select>
+        </p>
+
+        <p>
+            <textarea cols="10" rows="10" placeholder="Tu opinión"></textarea>
+        </p>
+
+        <p>
+            <button type="reset">Haz click aquí</button>
+        </p>
+
+        <!--Readonly no me permite escribit -->
+        <fieldset>
+            <legend>Probando el fieldset</legend>
+            <img src="../assets/tipos.png" alt="tipos inputs" width="400"><br>
+            <input type="checkbox" name="hola" id="Hola">Estas soltero?<br>
+            <input type="color" name="color" ><br>
+            <input type="datetime-local"><br>
+            <input type="file"><br>
+            <input type="image"><br>
+            <input type="month"><br>
+            <input type="url"><br>
+            <input type="week">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
